@@ -1,5 +1,6 @@
 body {
-  padding:0;
+  background-color:#F1F1F1;
+  margin:0;
 }
 
 .navigation {
@@ -21,7 +22,7 @@ nav ul {
 }
 
 nav ul li {
-  font-family:sans-serif;
+  font-family:Roboto;
   font-size:10pt;
   color:#000;
   text-decoration:none;
@@ -29,10 +30,17 @@ nav ul li {
 }
 
 nav ul li a {
-  padding:0px 30px;
+  padding:0px 50px;
   text-decoration:none;
   text-transform:uppercase;
   color:#000;
+}
+
+nav ul li a.hover {
+  text-decoration:none;
+  text-transform:uppercase;
+  color:red;
+  background-color:#000;
 }
 
 .background {
@@ -42,18 +50,21 @@ nav ul li a {
   position:relative;
   top:0;
   left:0;
+  height:90%;
+  width:100%;
 }
 
 #background-contents {
-  height:200px;
-  width:450px;
+  height:100px;
+  width:400px;
   border:1px solid #FFF;
   position:relative;
-  top:100px;
-  left:100px;
+  top:70%;
+  left:60%;
   padding:20px 40px 20px 20px;
   color:#FFF;
-  font-family:sans-serif;
-  font-weight:900;
+  font-family:Roboto;
+  font-weight:800;
   letter-spacing:-1pt;
+  font-size:30pt;
 }
