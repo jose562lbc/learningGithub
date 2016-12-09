@@ -13,8 +13,17 @@ body {
   text-align:center;
 }
 
-nav {
-  z-index:1;
+h1 {
+  font-family:Roboto;
+}
+
+.under-bg-container1 {
+  padding:30px 100px;
+  border:1px solid #000;
+  position:relative;
+  width:60%;
+  margin:auto;
+  tex-align:center;
 }
 
 nav ul {
