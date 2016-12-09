@@ -55,16 +55,16 @@ nav ul li a.hover {
 }
 
 #background-contents {
-  height:100px;
-  width:400px;
+  height:auto;
+  width 900;
   border:1px solid #FFF;
   position:relative;
-  top:70%;
-  left:60%;
-  padding:20px 40px 20px 20px;
+  top:60%;
+  left:33%;
+  padding:40px 40px;
   color:#FFF;
   font-family:Roboto;
   font-weight:800;
   letter-spacing:-1pt;
-  font-size:30pt;
+  font-size:90pt;
 }
