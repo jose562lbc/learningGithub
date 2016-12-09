@@ -36,7 +36,7 @@ nav ul li a {
   color:#000;
 }
 
-nav ul li a.hover {
+nav ul li .navigation a hover {
   text-decoration:none;
   text-transform:uppercase;
   color:red;
@@ -56,15 +56,16 @@ nav ul li a.hover {
 
 #background-contents {
   height:auto;
-  width 900;
+  width:65%;
   border:1px solid #FFF;
   position:relative;
   top:60%;
-  left:33%;
+  left:20%;
   padding:40px 40px;
   color:#FFF;
   font-family:Roboto;
   font-weight:800;
-  letter-spacing:-1pt;
-  font-size:90pt;
+  letter-spacing:4pt;
+  font-size:85pt;
+  text-align:right;
 }
